@@ -2,8 +2,8 @@
 
 module.exports = {
     google: {
-        clientID: "116800683709-k505ql23fc6g8qs9pssdlekdokl0h38f.apps.googleusercontent.com",
-        clientSecret: "XPAfdx2yqDSuhULEC_bbgsNp"
+        clientID: "698722945726-5oci82t11699k1og28l7al1vlmssmf6l.apps.googleusercontent.com",
+        clientSecret: "xsx_58LS3Pw4K-qOTwg9Gr2F"
     },
     facebook: {
         clientID: "157356078965913",

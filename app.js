@@ -16,7 +16,7 @@ const models = require('./models/user-model');
 
 
 setInterval(function() {
-    http.request('http://secret-fjord-13510.herokuapp.com/', console.log("here")).end();
+    http.request('https://serene-bastion-17051.herokuapp.com/', console.log("here")).end();
     console.log('set interval aAAAAAA')
     console.log('server poked');
 }, 300000); // every 5 minutes (300000)
@@ -64,7 +64,7 @@ var FacebookStrategy = require('passport-facebook').Strategy;
 passport.use(new FacebookStrategy({
     clientID: keys.facebook.clientID,
     clientSecret: keys.facebook.clientSecret,
-	callbackURL: "https://secret-fjord-13510.herokuapp.com/auth/facebook/callback",
+	callbackURL: "https://serene-bastion-17051.herokuapp.com/auth/facebook/callback",
 	profileFields: ['id', 'displayName', 'photos', 'email']
   },
   function(accessToken, refreshToken, profile, done) {
@@ -117,7 +117,7 @@ var LinkedInStrategy = require('passport-linkedin-oauth2').Strategy;
 passport.use(new LinkedInStrategy({
 	clientID: keys.linkedin.clientID,
 	clientSecret: keys.linkedin.clientSecret,
-	callbackURL: "https://secret-fjord-13510.herokuapp.com/auth/linkedin/callback",
+	callbackURL: "https://serene-bastion-17051.herokuapp.com/auth/linkedin/callback",
 	scope: ['r_emailaddress', 'r_liteprofile'],
 	state: true
   }, function(accessToken, refreshToken, profile, done) {
