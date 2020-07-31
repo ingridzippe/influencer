@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&family=Montserrat:ital,wght@0,300;0,600;0,700;1,300&display=swap');
+body {
+  background-color: #000;
+  color: #000;
+  /* background-size: cover;
+  width:100%; height:100%; */
+  font-family: 'Montserrat', sans-serif;
+  
+}
+.main-body-overlay {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom,
+  #f7f2f0, 
+    transparent
+  );
+  z-index: -1;
+}
+
+.main-body, .main-body-2, .main-body-3 {
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #000;
+  color: #000;
+  text-align: center;
+  background-image: url('/photos/influencer_3.jpg');
+  background-size: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+}
+.main-body-2 {
+  background-image: url('/photos/coffee_2.jpg');
+}
+.main-body-3 {
+  background-image: url('/photos/city.jpg');
+}
+
+.navbar {
+  border: 1px solid #fff;
+  height: 60px;
+  z-index: 10;
+  background-color: #fff;
+  color: #000;
+}
+.bemy-nav-logo {
+  /* background-image: url('/photos/bemy_logo_black.png');
+  background-size: cover;
+  width: 120px;
+  height: 25px;
+  border: 1px solid #000; */
+  font-size: 18px;
+  margin: auto;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.text-content {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 170px;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.become {
+  text-align: center;
+  margin-bottom: 27px; 
+  color: #000;
+  font-size: 28px;
+  font-weight: 400;
+}
+.join {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #000;
+}
+.join-2 {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: center;
+  color: #000;
+}
+.join-3 {
+  font-size: 19px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 68px;
+  color: #000;
+}
+#login-container {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.login-btn:hover {
+  text-decoration: none;
+}
+.login-btn {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0.9;
+  width: 240px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+  padding: 18px;
+  margin-bottom: 20px;
+  color: #000;
+  background-image: linear-gradient(to right, #fff 0%, #F0F0F0 51%, #BEBEBE 100%)
+}
+.gradient-button-3:hover { background-position: right center; }
+#google {
+}
+.form-container {
+  width: 65%;
+  margin: auto;
+  color: #fff;
+  font-family: Manrope;
+}
+#user-id-hide {
+  display: none;
+}
+.complete-profile {
+  font-size: 25px;
+}
+
+#label {
+  font-family: Montserrat;
+  margin-top: 50px;
+}
+
+#save-profile-btn {
+  text-decoration: none;
+  margin-top: 50px;
+  width: 270px;
+  height: 60px;
+  margin-bottom: 200px;
+  color: #000;
+  background-image: linear-gradient(to right, #fff 0%, #F5F5F5 51%, #BEBEBE 100%);
+  outline: none;
+  border: none;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.thankyou {
+  font-family: Montserrat;
+  margin-top: 150px;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+}
+.thankyou-2 {
+  margin-top: 30px;
+  font-family: Montserrat;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .main-body {
+      background-image: url('/photos/mentorship_2_mobile.jpg');
+    }
+}
+

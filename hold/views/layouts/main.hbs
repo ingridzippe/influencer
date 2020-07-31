@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jessa Wow</title>
+	<script src="https://use.fontawesome.com/82d1787fbf.js"></script>
+	<link rel="stylesheet" type="text/css" href="/site_style.css"/>
+</head>
+
+
+
+<body>
+	<div id="menu" class="collapse" style="display: none">
+		<span id="plus-white" class="fa fa-plus fa-4x"></span>
+		<div class="navigation">
+            <div class="nav-tech"><h2>TECH</h2></div>
+			<div class="nav-video"><h2>VIDEO</h2></div>
+			<div class="nav-pics"><h2>PICS</h2></div>
+			<a href="/bio"><div class="nav-bio"><h2 class="bio">BIO</h2></div></a>
+	<!-- 		<h2>SHOP</h2> -->
+		</div>
+	</div>
+
+	<div id="social" class="collapse" style="display: none">
+		<span id="x" class="fa fa-close"></span>
+		<div class="social-icons">
+			<a href="https://www.youtube.com/channel/UCNzlsqfaijuQoSF29Te1Grw" target="_blank">
+				<span id="soc-icon" class="fa fa-youtube-play"></span>
+			</a>
+			<a href="https://www.instagram.com/ingridnow/" target="_blank">
+				<span id="soc-icon" class="fa fa-instagram"></span>
+			</a>
+			<a href="https://ense.nyc/ingrid" target="_blank">
+				<span id="ense">ense</span>
+			</a>
+			<a href="https://www.facebook.com/ingridzippe" target="_blank">
+				<span id="soc-icon" class="fa fa-facebook"></span>
+			</a>
+		</div>
+	</div>
+
+	<a href="/"><h1 class='title' id="header">INGRID</h1></a>
+
+	<span class="fa fa-plus fa-4x" id="plus" data-toggle="collapse"></span>
+	<span id="heart" class="fa fa-heart-o" data-toggle="collapse"></span>
+
+
+	    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+
+<script>
+
+	// Slide-in nav
+	$('#plus').click(function() {
+		$('#menu').toggle('collapse');
+		$('#plus').hide();
+	});
+	$('#plus-white').click(function() {
+		$('#menu').toggle('collapse');
+		$('#plus').show();
+	});
+
+	// Social
+	$('#heart').click(function() {
+		$('#social').show();
+	});
+	$('#x').click(function() {
+		$('#social').hide();
+	});
+
+</script>

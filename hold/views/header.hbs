@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bemy Mentor</title>
+	<script src="https://use.fontawesome.com/82d1787fbf.js"></script>
+	<link rel="stylesheet" type="text/css" href="/site_style.css"/>
+</head>
+
+
+
+<body>
+	<div id="menu" class="collapse" style="display: none">
+
+
+	    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+
+<script>
+
+	// Slide-in nav
+	$('#plus').click(function() {
+		$('#menu').toggle('collapse');
+		$('#plus').hide();
+	});
+	$('#plus-white').click(function() {
+		$('#menu').toggle('collapse');
+		$('#plus').show();
+	});
+
+	// Social
+	$('#heart').click(function() {
+		$('#social').show();
+	});
+	$('#x').click(function() {
+		$('#social').hide();
+	});
+
+</script>

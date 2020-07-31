@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Squada+One');
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
+
+.hw:hover {color: white;}
+.hb:hover {color: black;}
+h1 {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 14px;
+	width: 400px;
+	padding-bottom: 16px;
+	font-family: 'Raleway', sans-serif; 
+	font-size: 100px;
+	color: #2a1c19;
+}
+h1:hover {color: white;}
+
+
+body {
+	margin: 0;
+	background: #faf2ed;
+	position: relative;
+}
+
+.topic {
+	text-align: center;
+}
+
+.navigation {
+	width: 100%;
+	padding-top: 74px;
+	text-align: center;
+	text-align: right;
+}
+
+h2 {
+	width: 350px;
+	font-family: 'Raleway', sans-serif; 
+	font-size: 70px;
+	color: white;
+}
+h2:hover {color: #2a1c19};
+
+
+h4 {
+	text-align: center;
+	color: grey;
+	font-size: 70px;
+	font-family: 'Raleway', sans-serif; 
+}
+
+#menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+/*	border: 1px solid blue; */
+    background: #000;
+    z-index: 1;
+    width: 400px;
+    min-height: 100%;
+}
+#menu .collapse {
+	min-height: 100%;
+	height: 100%;
+}
+
+#social {
+	z-index: 2;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-left: auto; 
+    margin-right: auto;
+    margin-top: 20%; 
+	height: 300px;
+	width: 870px;
+/*	border: 1px solid blue; */
+    background: #faf2ed;
+    text-align: center;
+    flex: 1;
+}
+#soc-icon {
+	margin-top: 60px;
+	font-size: 100px;
+	padding: 38px;
+	color: #2a1c19;
+}
+#soc-icon:hover {color: white;}
+#ense {
+	font-size: 110px;
+	color: transparent;
+	text-decoration: none;
+	background: url("photos/photos/ense_logo.png") no-repeat;
+	background-size: 136px 103px; 
+	background-position: 50% 50%;
+}
+a { text-decoration: none; }
+#x {
+	position: absolute;
+	top: 7px;
+	right: 12px;
+	font-size: 66px;
+	color: #2a1c19;
+}
+#x:hover {color: white;}
+
+#plus {
+	position: absolute;
+	top: 36px;
+	left: 25px;
+	color: #2a1c19;
+}
+#plus:hover {color: white;}
+#plus-white {
+	position: absolute;
+	top: 36px;
+	left: 25px;
+	color: #fff;
+}
+#heart {
+	position: absolute;
+	top: 44px;
+	right: 27px;
+	color: #2a1c19;
+	font-size: 53px;
+}
+#heart:hover {color: white;}
+
+
+
+#topic-title {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 58px;
+	color: #2a1c19;
+	padding-top: 18px;
+	padding-bottom: 43px;
+}
+#tech-heading {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 40px;
+	color: #2a1c19;
+	padding-top: 18px;
+	padding-bottom: 43px;
+	font-weight: bold;
+}
+p {
+	font-size: 18px;
+}
+#git {
+	font-size: 40px;
+	text-decoration: underline;
+}
+#pad {
+	padding-bottom: 30px;
+}
+
+
+
+
+.photos-container {
+	display: inline-block;
+ 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -4px;
+}
+#o {
+	position: absolute;
+	width: 100%;
+	height: 315px;
+	background-color: #faf2ed;
+/*	background-color: #000;*/
+	opacity: 0;
+}
+#o:hover {
+	opacity: 0.2;
+}
+
+.pic {
+	height: 315px;
+	width: 33%;
+	float:left;
+    clear:none; 
+	display: inline-block;
+}
+#photo-rainforest {
+	background: url("photos/photos/rainforest.png");
+	background-size: cover;
+	background-position: 30% 24%;
+}
+#photo-diamond {
+	background: url("photos/photos/diamond_edit_cover.jpg");
+	background-size: cover;
+	background-position: 30% 90%;
+}
+#photo-kim {
+	background: url("photos/photos/whitenudelip_sitting_cover.jpg");
+	background-size: cover;
+	background-position: 50% 53%;
+}
+#photo-1 {
+	background: url("photos/photos/banana_phone.jpg");
+	background-size: cover;
+	background-position: 90% 90%;
+}
+#photo-2 {
+	background: url("photos/photos/eyeroll.jpg");
+	background-size: cover;
+	background-position: 66% 50%;
+}
+#photo-3 {
+	background: url("photos/photos/fun.jpg");
+	background-size: 200%;
+	background-position: 70% 30%;
+}
+#photo-7 {
+	background: url("photos/photos/fidget.jpg");
+	background-size: cover;
+	background-position: 10% 39%;
+}
+#photo-snap-flowers {
+	background: url("photos/photos/snap_flowers.jpg");
+	background-size: cover;
+	background-position: 8% 39%;
+}
+
+
+#photo-snap {
+	background: url("photos/photos/snap.jpg");
+	background-size: 140%;
+	background-position: 70% 50%;
+}
+#photo-hat {
+	background: url("photos/photos/fun.jpg");
+	background-size: 200%;
+	background-position: 79% 25%;
+}
+#photo-snap-bow {
+	background: url("photos/photos/snap_bow.jpg");
+	background-size: cover;
+	background-position: 60% 32%;
+}
+#photo-yellow {
+	background: url("photos/photos/yellow_cover.png");
+	background-size: 130%;
+	background-position: 50% 20%;
+}
+#photo-leather {
+	background: url("photos/photos/leather_hair.jpg");
+	background-size: 120%;
+	background-position: 10% 42%;
+}
+#photo-16 {
+	background: url("photos/photos/pink_squat_real.jpg");
+	background-size: cover;
+	background-position: 78% 42%;
+}
+#photo-crop {
+	background: url("photos/og/painting/crop_circle_cover.jpg");
+	background-size: cover;
+	background-position: 85% 5%;
+}
+#photo-apple {
+	background: url("photos/og/products/white_front_3.png");
+	background-size: cover;
+	background-position: 85% 5%;
+}
+#photo-graphic {
+	background: url("photos/og/painting/graphic_s.png");
+	background-size: cover;
+	background-position: 85% 99%;
+}
+#photo-black {
+	background: url("photos/og/painting/black_cover.jpg");
+	background-size: cover;
+	background-position: 55% 95%;
+}
+#photo-garden {
+	background: url("photos/og/painting/garden.jpg");
+	background-size: cover;
+	background-position: 60% 15%;
+}
+#photo-fabric {
+	background: url("photos/og/painting/large_circle_cover.jpg");
+	background-size: cover;
+	background-position: 60% 00%;
+}
+#photo-suma {
+    background: url("photos/og/products/suma_cover.jpg");
+	background-size: cover;
+	background-position: 60% 00%;
+}
+#photo-neonbuddha {
+	background: url("photos/og/painting/neon_cover.jpg");
+	background-size: cover;
+	background-position: 50% 50%;
+}
+#photo-hilma {
+	background: url("photos/og/painting/small_circle_cover.jpg");
+	background-size: cover;
+	background-position: 60% 13%;
+}
+#photo-red {
+	background: url("photos/og/fashion/red_1.jpg");
+	background-size: cover;
+	background-position: 50% 17%;
+}
+#photo-neon {
+	background: url("photos/og/fashion/neon_1.jpg");
+	background-size: cover;
+	background-position: 50% 35%;
+}
+
+.paint-container {text-align: center;}
+.paint-photos {width: 920px; margin-left: auto; margin-right: auto;}
+.paint-pic {
+	float: left; 
+	width: 430px;
+	margin: 12px;
+}
+#black {
+	height: 430px;
+	background: url("photos/og/painting/black_cover.jpg");
+	background-size: cover;
+}
+#graphic {
+	height: 430px;
+	background: url("photos/og/painting/graphic_s.png");
+	background-size: cover;
+}
+#garden {
+	height: 600px;
+    background: url("photos/og/painting/garden.jpg");
+    background-size: cover;
+}
+#hilma {
+	height: 430px;
+    background: url("photos/og/painting/small_circle_cover.jpg");
+    background-size: cover;
+}
+#fabric {
+	height: 300px;
+	background: url("photos/og/painting/white_front_3.png");
+	background-size: cover;
+}
+#neon {
+	height: 430px;
+	background: url("photos/og/painting/neon_cover.png");
+	background-size: cover;
+}
+
+
+
+.bio-container {
+	width: 75%;
+	height: 230px;
+	margin-bottom: 30px;
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	border-style: solid;
+	border-color: blue;
+}
+#bio-photo {
+	height: 200px;
+	display: inline-block;
+	text-align: left; 
+	float: left; 
+	width: 39%;
+	border-style: solid;
+	border-color: green;
+}
+#bio-description {
+	height: 200px;
+	display: inline-block;
+	text-align: left; 
+	float: left;
+	width: 39%;
+	border-style: solid;
+	border-color: blue;
+}
+
+
+#timeline-plus {
+	width: 75%;
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto;
+	border-style: solid;
+	border-color: blue;
+}
+
+.timeline {
+	display: inline-block;
+	text-align: left;
+	float: left; 
+	width: 58%;
+	border-style: solid;
+	border-color: blue;
+}
+
+.other {
+	display: inline-block;
+	text-align: left; 
+	float: left;
+	width: 39%;
+	border-style: solid;
+	border-color: blue;
+}
+
+
