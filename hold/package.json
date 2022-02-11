@@ -8,7 +8,7 @@
     "body-parser": "^1.16.0",
     "cookie-session": "^2.0.0-alpha.2",
     "express": "^4.14.1",
-    "express-handlebars": "^3.0.0",
+    "express-handlebars": "^5.3.1",
     "passport": "^0.3.2",
     "xmlhttprequest": "^1.8.0"
   }
